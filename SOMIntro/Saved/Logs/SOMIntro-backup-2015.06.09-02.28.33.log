@@ -1,0 +1,402 @@
+﻿Log file open, 06/08/15 15:15:06
+LogInit:Display: Running engine for game: SOMIntro
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.08-22.15.06:720][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.08-22.15.06:763][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.08-22.15.06:793][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.08-22.15.06:825][  0]LogInit: Object subsystem initialized
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.08-22.15.06:832][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-22.15.06:833][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.08-22.15.06:833][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.08-22.15.06:883][  0]LogInit: Computer: CHRISTIAN
+[2015.06.08-22.15.06:883][  0]LogInit: User: Christian
+[2015.06.08-22.15.06:883][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.08-22.15.06:883][  0]LogInit: High frequency timer resolution =2.143569 MHz
+[2015.06.08-22.15.06:883][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2015.06.08-22.15.06:884][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-22.15.06:884][  0]LogMemory: Process Physical Memory: 46.04 MB used, 46.04 MB peak
+[2015.06.08-22.15.06:884][  0]LogMemory: Process Virtual Memory: 26.17 MB used, 26.17 MB peak
+[2015.06.08-22.15.06:884][  0]LogMemory: Physical Memory: 2235.09 MB used, 3983.27 MB total
+[2015.06.08-22.15.06:884][  0]LogMemory: Virtual Memory: 287.77 MB used, 8388608.00 MB total
+[2015.06.08-22.15.06:900][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.06.08-22.15.06:900][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.06.08-22.15.06:902][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.08-22.15.06:902][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.08-22.15.06:902][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.08-22.15.06:910][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.06.08-22.15.06:912][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.08-22.15.06:979][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.08-22.15.07:097][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.08-22.15.07:098][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.08-22.15.07:239][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.08-22.15.10:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-22.15.11:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-22.15.12:023][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.08-22.15.12:091][  0]LogDerivedDataCache: Loaded boot cache 0.07s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.08-22.15.12:091][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.08-22.15.12:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.08-22.15.12:091][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.08-22.15.12:303][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.08-22.15.12:317][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.08-22.15.12:822][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.08-22.15.12:822][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.08-22.15.13:481][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.08-22.15.13:600][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.08-22.15.14:778][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.08-22.15.15:081][  0]SourceControl: Info Source control is disabled
+[2015.06.08-22.15.15:081][  0]SourceControl: Info Source control is disabled
+[2015.06.08-22.15.15:082][  0]SourceControl: Info Source control is disabled
+[2015.06.08-22.15.15:082][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.08-22.15.15:082][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.08-22.15.15:096][  0]SourceControl: Info Source control is disabled
+[2015.06.08-22.15.15:372][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.08-22.15.15:372][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.08-22.15.15:491][  0]LogEngine: Initializing Engine...
+[2015.06.08-22.15.18:794][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.08-22.15.18:817][  0]LogInit: FAudioDevice initialized.
+[2015.06.08-22.15.18:895][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.08-22.15.18:941][  0]LogDerivedDataCache: Saved boot cache 0.04s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.08-22.15.18:953][  0]LogInit: Texture streaming: Enabled
+[2015.06.08-22.15.19:129][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.08-22.15.19:129][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.08-22.15.19:129][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.08-22.15.19:129][  0]LogAnalytics: SetUserId 4e297af04bcf42a9c1a5f0a40d93044f|256081b0662a4905b440382e278adc23|f34cf462-a968-4b10-a304-f8ad71127acc
+[2015.06.08-22.15.19:130][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.08-22.15.19:162][  0]LogInit: Transaction tracking system initialized
+[2015.06.08-22.15.19:428][  0]BlueprintLog: New page: Editor Load
+[2015.06.08-22.15.19:502][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.06.08-22.15.19:503][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.08-22.15.20:820][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-22.15.21:619][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-22.15.22:071][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.08-22.15.22:071][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.08-22.15.22:136][  0]LogConsoleResponse:Display: 
+[2015.06.08-22.15.22:623][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.08-22.15.22:851][  0]SourceControl: Info Source control is disabled
+[2015.06.08-22.15.22:852][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.08-22.15.22:853][  0]LightingResults: New page: Lighting Build
+[2015.06.08-22.15.22:874][  0]MapCheck: New page: Map Check
+[2015.06.08-22.15.22:875][  0]LightingResults: New page: Lighting Build
+[2015.06.08-22.15.22:900][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6AE187560
+[2015.06.08-22.15.22:971][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.08-22.15.26:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-22.15.28:532][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.08-22.15.28:666][  0]Cmd: MAP CHECKDEP
+[2015.06.08-22.15.28:666][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 8, 2015, 8:15:28 AM
+[2015.06.08-22.15.28:809][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.956ms to complete.
+[2015.06.08-22.15.28:809][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.958
+[2015.06.08-22.15.29:853][  0]LogCollectionManager: Loaded 0 collections in 0.002721 seconds
+[2015.06.08-22.15.29:870][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 1696 classes and 261 folders.
+[2015.06.08-22.15.30:197][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2015.06.08-22.15.30:869][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.08-22.15.30:871][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.08-22.15.30:899][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.08-22.15.30:930][  0]LogLoad: Full Startup: 27.01 seconds (BP compile: 1.40 seconds)
+[2015.06.08-22.15.31:377][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.08-22.15.31:660][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.08-22.15.32:306][  0]LogRenderer:Warning: Reallocating scene render targets to support 800x376 (Frame:5).
+[2015.06.08-22.15.36:128][ 10]LogAssetRegistry: Asset discovery search completed in 16.6374 seconds
+[2015.06.08-22.17.22:072][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.08-22.17.37:229][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.08-22.17.37:784][421]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.08-22.17.37:789][421]LightingResults: New page: Lighting Build
+[2015.06.08-22.17.37:927][421]LoadErrors: New page: Loading map: Scene1.umap
+[2015.06.08-22.17.38:023][421]MapCheck: New page: Map Check
+[2015.06.08-22.17.38:023][421]LightingResults: New page: Lighting Build
+[2015.06.08-22.17.38:148][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6A4A0BBA0
+[2015.06.08-22.17.41:878][421]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-22.17.42:120][421]LogAIModule: Creating AISystem for world Scene1
+[2015.06.08-22.17.42:222][421]Cmd: MAP CHECKDEP
+[2015.06.08-22.17.42:222][421]MapCheck: New page: Scene1 - Jun 8, 2015, 8:17:42 AM
+[2015.06.08-22.17.42:350][421]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.131ms to complete.
+[2015.06.08-22.17.42:352][421]LogFileHelpers: Loading map 'Scene1' took 4.617
+[2015.06.08-22.17.42:515][422]Cmd: UpdateLandscapeEditorData -warnings
+[2015.06.08-22.17.42:789][422]Cmd: UpdateLandscapeEditorData
+[2015.06.08-22.17.43:856][444]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.08-22.17.43:880][444]PIE: New page: PIE session: Scene1 (Jun 8, 2015, 8:17:43 AM)
+[2015.06.08-22.17.44:000][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119596s)
+[2015.06.08-22.17.44:001][444]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2015.06.08-22.17.44:007][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.126754s)
+[2015.06.08-22.17.44:285][444]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.08-22.17.44:484][444]LogAIModule: Creating AISystem for world Scene1
+[2015.06.08-22.17.44:538][444]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 0) at 2015.06.08-15.17.44
+[2015.06.08-22.17.44:572][444]LogWorld: Bringing up level for play took: 0.086233
+[2015.06.08-22.17.44:903][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 1.856
+[2015.06.08-22.17.45:475][445]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082605 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_4'
+[2015.06.08-22.17.57:074][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.08-22.17.57:142][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6A673A5C0
+[2015.06.08-22.18.07:392][980]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.07:392][980]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.10:356][ 41]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.10:356][ 41]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.10:418][ 43]LogRenderer:Warning: Reallocating scene render targets to support 800x376 (Frame:725).
+[2015.06.08-22.18.11:706][ 63]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.11:706][ 63]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.15:048][152]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.15:048][152]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.16:635][200]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.16:636][200]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.18:273][248]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.18:273][248]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.18:324][250]LogRenderer:Warning: Reallocating scene render targets to support 800x376 (Frame:932).
+[2015.06.08-22.18.19:344][284]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.19:344][284]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.20:268][314]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.20:268][314]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:727][363]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:727][363]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:750][364]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:750][364]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:774][365]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:774][365]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:795][366]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:795][366]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:819][367]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:819][367]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:843][368]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:843][368]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:880][369]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:880][369]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:904][370]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:904][370]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:928][371]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:928][371]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:953][372]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:953][372]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:974][373]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:974][373]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.21:998][374]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.21:998][374]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:033][375]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:033][375]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:034][375]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:034][375]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:062][376]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:062][376]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:090][377]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:090][377]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:112][378]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:112][378]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:233][383]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:233][383]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:259][384]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:259][384]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:281][385]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:281][385]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.22:323][386]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.22:323][386]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:451][429]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:452][429]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:618][436]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:618][436]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:642][437]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:643][437]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:664][438]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:664][438]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:693][439]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:693][439]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:719][440]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:720][440]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:744][441]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:744][441]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:766][442]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:766][442]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:790][443]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:791][443]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:814][444]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:814][444]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:839][445]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:839][445]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:862][446]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:862][446]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:888][447]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:888][447]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:912][448]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:912][448]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:943][449]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:943][449]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:986][450]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:986][450]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.23:987][450]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.23:987][450]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.24:011][451]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.24:011][451]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.25:768][515]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.25:768][515]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.28:349][603]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.06.08-22.18.28:349][603]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.06.08-22.18.53:631][ 99]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.08-22.18.53:631][ 99]PIE: New page: PIE session: Scene1 (Jun 8, 2015, 8:18:53 AM)
+[2015.06.08-22.18.53:687][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046382s)
+[2015.06.08-22.18.53:688][ 99]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2015.06.08-22.18.53:689][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.047781s)
+[2015.06.08-22.18.53:729][ 99]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.08-22.18.53:731][ 99]LogAIModule: Creating AISystem for world Scene1
+[2015.06.08-22.18.53:758][ 99]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 0) at 2015.06.08-15.18.53
+[2015.06.08-22.18.53:759][ 99]LogWorld: Bringing up level for play took: 0.026985
+[2015.06.08-22.18.53:788][ 99]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.741
+[2015.06.08-22.19.33:712][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D6ED2AAFC0
+[2015.06.08-23.00.51:894][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.08-23.00.55:498][239]LogSavePackage: Save=1465.059448ms
+[2015.06.08-23.00.55:498][239]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1_Auto199C4D67546A4E50BD543DAB831CC0444.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto1.umap'
+[2015.06.08-23.00.55:613][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 4.293
+[2015.06.08-23.00.55:613][239]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.293
+[2015.06.08-23.26.52:966][985]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak.obj)
+[2015.06.08-23.26.55:503][985]LogFbx: Loading FBX Scene from ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak.obj
+[2015.06.08-23.26.55:736][985]LogFbx: FBX Scene Loaded Succesfully
+[2015.06.08-23.26.55:765][985]LogLinker:Warning: Can't find file '/Game/tree_oak_leaf_tree_oak_leaf_d_dds'
+[2015.06.08-23.26.55:774][985]LogLinker:Warning: Can't find file '/Game/tree_oak_leaf_tree_oak_leaf_d_dds'
+[2015.06.08-23.26.55:774][985]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/tree_oak_leaf_tree_oak_leaf_d_dds.tree_oak_leaf_tree_oak_leaf_d_dds'
+[2015.06.08-23.26.55:803][985]LogLinker:Warning: Can't find file '/Game/tree_oak_leaf_d'
+[2015.06.08-23.26.55:804][985]LogLinker:Warning: Can't find file '/Game/tree_oak_leaf_d'
+[2015.06.08-23.26.55:804][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/tree_oak_leaf_d.tree_oak_leaf_d'
+[2015.06.08-23.26.55:878][985]Error: Texture import failed
+[2015.06.08-23.26.55:907][985]LogMaterial: Missing cached shader map for material tree_oak_leaf_tree_oak_leaf_d_dds, compiling. 
+[2015.06.08-23.26.56:044][985]LogLinker:Warning: Can't find file '/Game/tree_oak_trunk_tree_oak_trunk_d_dds'
+[2015.06.08-23.26.56:044][985]LogLinker:Warning: Can't find file '/Game/tree_oak_trunk_tree_oak_trunk_d_dds'
+[2015.06.08-23.26.56:045][985]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/tree_oak_trunk_tree_oak_trunk_d_dds.tree_oak_trunk_tree_oak_trunk_d_dds'
+[2015.06.08-23.26.56:048][985]LogLinker:Warning: Can't find file '/Game/tree_oak_trunk_d'
+[2015.06.08-23.26.56:049][985]LogLinker:Warning: Can't find file '/Game/tree_oak_trunk_d'
+[2015.06.08-23.26.56:049][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/tree_oak_trunk_d.tree_oak_trunk_d'
+[2015.06.08-23.26.56:049][985]Error: Texture import failed
+[2015.06.08-23.26.56:095][985]LogMaterial: Missing cached shader map for material tree_oak_trunk_tree_oak_trunk_d_dds, compiling. 
+[2015.06.08-23.26.56:111][985]LogLinker:Warning: Can't find file '/Game/tree_oak_branch_tree_oak_branch_d_dds'
+[2015.06.08-23.26.56:111][985]LogLinker:Warning: Can't find file '/Game/tree_oak_branch_tree_oak_branch_d_dds'
+[2015.06.08-23.26.56:111][985]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/tree_oak_branch_tree_oak_branch_d_dds.tree_oak_branch_tree_oak_branch_d_dds'
+[2015.06.08-23.26.56:114][985]LogLinker:Warning: Can't find file '/Game/tree_oak_branch_d'
+[2015.06.08-23.26.56:115][985]LogLinker:Warning: Can't find file '/Game/tree_oak_branch_d'
+[2015.06.08-23.26.56:115][985]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/tree_oak_branch_d.tree_oak_branch_d'
+[2015.06.08-23.26.56:115][985]Error: Texture import failed
+[2015.06.08-23.26.56:134][985]LogMaterial: Missing cached shader map for material tree_oak_branch_tree_oak_branch_d_dds, compiling. 
+[2015.06.08-23.26.56:236][985]LogFbx: == Initial material list:
+[2015.06.08-23.26.56:236][985]LogFbx: 0: tree_oak_leaf_tree_oak_leaf_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: 1: tree_oak_trunk_tree_oak_trunk_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: 2: tree_oak_branch_tree_oak_branch_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: == After sorting:
+[2015.06.08-23.26.56:236][985]LogFbx: 0: tree_oak_leaf_tree_oak_leaf_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: 1: tree_oak_trunk_tree_oak_trunk_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: 2: tree_oak_branch_tree_oak_branch_d.dds
+[2015.06.08-23.26.56:236][985]LogFbx: == Mapping table:
+[2015.06.08-23.26.56:236][985]LogFbx:   sort 0 -> 0
+[2015.06.08-23.26.56:236][985]LogFbx:   sort 1 -> 1
+[2015.06.08-23.26.56:236][985]LogFbx:   sort 2 -> 2
+[2015.06.08-23.26.56:318][985]LogStaticMesh: Building static mesh tree_oak...
+[2015.06.08-23.26.57:052][985]LogStaticMesh: Built static mesh [769.494690ms] /Game/tree_oak.tree_oak
+[2015.06.08-23.26.57:397][985]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.08-23.26.57:397][985]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.08-23.26.57:786][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 0.058
+[2015.06.08-23.26.57:837][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_oak] ([1] browsable assets)...
+[2015.06.08-23.26.57:982][986]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tree_oak.tree_oak]
+[2015.06.08-23.26.57:982][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_oak]
+[2015.06.08-23.26.57:985][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tree_oak" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/tree_oak_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.06.08-23.26.58:248][986]LogSavePackage: Save=260.085388ms
+[2015.06.08-23.26.58:250][986]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/tree_oak_Auto2AEA2D54A4CF27AD335B4DC9D6C3A346C.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/tree_oak_Auto2.uasset'
+[2015.06.08-23.26.58:306][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_oak_leaf_tree_oak_leaf_d_dds] ([1] browsable assets)...
+[2015.06.08-23.27.00:925][986]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_oak_leaf_tree_oak_leaf_d_dds.tree_oak_leaf_tree_oak_leaf_d_dds]
+[2015.06.08-23.27.00:925][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_oak_leaf_tree_oak_leaf_d_dds]
+[2015.06.08-23.27.01:672][986]LogSavePackage: Save=741.491882ms
+[2015.06.08-23.27.01:675][986]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/tree_oak_leaf_tree_oak_leaf_d_dds_Auto2943DF55349CFA229590FE59F08C138E6.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/tree_oak_leaf_tree_oak_leaf_d_dds_Auto2.uasset'
+[2015.06.08-23.27.01:727][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_oak_trunk_tree_oak_trunk_d_dds] ([1] browsable assets)...
+[2015.06.08-23.27.01:775][986]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_oak_trunk_tree_oak_trunk_d_dds.tree_oak_trunk_tree_oak_trunk_d_dds]
+[2015.06.08-23.27.01:775][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_oak_trunk_tree_oak_trunk_d_dds]
+[2015.06.08-23.27.02:501][986]LogSavePackage: Save=720.549255ms
+[2015.06.08-23.27.02:503][986]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/tree_oak_trunk_tree_oak_trunk_d_dds_Auto2E7818A9E41883CEFF3BEF39EC6E5952C.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/tree_oak_trunk_tree_oak_trunk_d_dds_Auto2.uasset'
+[2015.06.08-23.27.02:552][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tree_oak_branch_tree_oak_branch_d_dds] ([1] browsable assets)...
+[2015.06.08-23.27.03:136][986]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tree_oak_branch_tree_oak_branch_d_dds.tree_oak_branch_tree_oak_branch_d_dds]
+[2015.06.08-23.27.03:136][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/tree_oak_branch_tree_oak_branch_d_dds]
+[2015.06.08-23.27.03:947][986]LogSavePackage: Save=800.471069ms
+[2015.06.08-23.27.03:951][986]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/tree_oak_branch_tree_oak_branch_d_dds_Auto2BC3672324C391199C49A08AA895D16F2.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/tree_oak_branch_tree_oak_branch_d_dds_Auto2.uasset'
+[2015.06.08-23.27.03:969][986]LogFileHelpers: Auto-saving content packages took 6.184
+[2015.06.08-23.27.06:205][ 25]LogActorFactory: Actor Factory created tree_oak
+[2015.06.08-23.27.07:387][ 51]LogActorFactory: Actor Factory created tree_oak
+[2015.06.08-23.28.14:119][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_oak)
+[2015.06.08-23.28.58:397][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_branch_n.dds)
+[2015.06.08-23.28.58:398][679]Error: Texture import failed
+[2015.06.08-23.29.01:074][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_branch_n.dds'. Failed to create asset '/Game/tree_oak_branch_n'
+[2015.06.08-23.29.01:076][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_branch_s.dds)
+[2015.06.08-23.29.01:077][679]Error: Texture import failed
+[2015.06.08-23.29.01:709][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_branch_s.dds'. Failed to create asset '/Game/tree_oak_branch_s'
+[2015.06.08-23.29.01:712][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_d.dds)
+[2015.06.08-23.29.01:713][679]Error: Texture import failed
+[2015.06.08-23.29.02:280][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_d.dds'. Failed to create asset '/Game/tree_oak_leaf_d'
+[2015.06.08-23.29.02:282][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_n.dds)
+[2015.06.08-23.29.02:283][679]Error: Texture import failed
+[2015.06.08-23.29.02:814][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_n.dds'. Failed to create asset '/Game/tree_oak_leaf_n'
+[2015.06.08-23.29.02:816][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_s.dds)
+[2015.06.08-23.29.02:817][679]Error: Texture import failed
+[2015.06.08-23.29.03:397][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_leaf_s.dds'. Failed to create asset '/Game/tree_oak_leaf_s'
+[2015.06.08-23.29.03:399][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_d.dds)
+[2015.06.08-23.29.03:400][679]Error: Texture import failed
+[2015.06.08-23.29.03:856][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_d.dds'. Failed to create asset '/Game/tree_oak_trunk_d'
+[2015.06.08-23.29.03:858][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_n.dds)
+[2015.06.08-23.29.03:859][679]Error: Texture import failed
+[2015.06.08-23.29.04:329][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_n.dds'. Failed to create asset '/Game/tree_oak_trunk_n'
+[2015.06.08-23.29.04:334][679]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_s.dds)
+[2015.06.08-23.29.04:335][679]Error: Texture import failed
+[2015.06.08-23.29.04:737][679]LogAssetTools:Warning: Failed to import '../../../../../../Users/Christian/Desktop/REORCTreeOak/tree_oak_trunk_s.dds'. Failed to create asset '/Game/tree_oak_trunk_s'
+[2015.06.08-23.29.12:874][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_oak)
+[2015.06.08-23.29.13:047][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_oak)
+[2015.06.08-23.29.13:109][847]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.14:165][867]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.15:886][895]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.15:919][895]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (tree_oak)
+[2015.06.08-23.29.16:057][897]EditorErrors:Warning: Warning
+[2015.06.08-23.29.16:117][897]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.16:452][902]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.20:341][977]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.20:852][983]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.08-23.29.21:966][  0]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.06.09-04.02.35:731][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.09-04.02.35:737][749]LogHttp:Warning: Timeout processing Http request. 000000D6D0D19440 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7B4C98FBBC-416B-C420-1C1A-479E0AD67DA7%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=4e297af04bcf42a9c1a5f0a40d93044f%7C256081b0662a4905b440382e278adc23%7Cf34cf462-a968-4b10-a304-f8ad71127acc&IsEditor=1
+[2015.06.09-04.02.36:077][751]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000D6D0D19440. 
+[2015.06.09-04.02.36:077][751]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000D6D0D19440. 
+[2015.06.09-04.02.36:077][751]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000D6D0D19440. 
+[2015.06.09-04.02.43:289][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.09-04.02.43:424][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.09-04.02.44:846][771]LogSavePackage: Save=1069.296631ms
+[2015.06.09-04.02.44:846][771]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1_Auto3CB657E724B5BA15107AA639CB1CFF865.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto3.umap'
+[2015.06.09-04.02.44:870][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 1.582
+[2015.06.09-04.02.44:870][771]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.582
+[2015.06.09-05.32.54:979][913]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.09-06.34.41:789][ 31]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christian/Desktop/Free_SpeedTree_Samples_for_UE4/Broadleaf_Desktop.jpg)
+[2015.06.09-06.34.43:200][ 31]0.000048 seconds to analyze Texture2D /Game/Broadleaf_Desktop.Broadleaf_Desktop
+
+[2015.06.09-06.34.43:206][ 31]LogTexture:Display: Building textures: Broadleaf_Desktop (AutoDXT)
+[2015.06.09-06.34.45:456][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.09-06.34.45:456][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.09-06.34.45:727][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 0.045
+[2015.06.09-06.34.45:761][ 32]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Broadleaf_Desktop] ([1] browsable assets)...
+[2015.06.09-06.34.45:803][ 32]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Broadleaf_Desktop.Broadleaf_Desktop]
+[2015.06.09-06.34.45:803][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Broadleaf_Desktop]
+[2015.06.09-06.34.47:421][ 32]LogSavePackage: Save=1613.187622ms
+[2015.06.09-06.34.47:423][ 32]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Broadleaf_Desktop_Auto44C779EEA4A8D05F945F71693715B3D3D.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Broadleaf_Desktop_Auto4.uasset'
+[2015.06.09-06.34.47:433][ 32]LogFileHelpers: Auto-saving content packages took 1.706
+[2015.06.09-06.35.16:325][345]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christian/Desktop/Free_SpeedTree_Samples_for_UE4/box.obj)
+[2015.06.09-06.35.18:337][345]LogFbx: Loading FBX Scene from ../../../../../../Users/Christian/Desktop/Free_SpeedTree_Samples_for_UE4/box.obj
+[2015.06.09-06.35.18:345][345]LogFbx: FBX Scene Loaded Succesfully
+[2015.06.09-06.35.18:350][345]LogLinker:Warning: Can't find file '/Game/Box001Mat'
+[2015.06.09-06.35.18:351][345]LogLinker:Warning: Can't find file '/Game/Box001Mat'
+[2015.06.09-06.35.18:351][345]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Box001Mat.Box001Mat'
+[2015.06.09-06.35.18:396][345]LogMaterial: Missing cached shader map for material Box001Mat, compiling. 
+[2015.06.09-06.35.18:407][345]LogFbx: == Initial material list:
+[2015.06.09-06.35.18:407][345]LogFbx: 0: Box001Mat
+[2015.06.09-06.35.18:407][345]LogFbx: == After sorting:
+[2015.06.09-06.35.18:407][345]LogFbx: 0: Box001Mat
+[2015.06.09-06.35.18:407][345]LogFbx: 

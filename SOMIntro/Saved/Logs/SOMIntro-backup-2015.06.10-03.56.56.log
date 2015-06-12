@@ -1,0 +1,823 @@
+﻿Log file open, 06/09/15 17:48:12
+LogInit:Display: Running engine for game: SOMIntro
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.10-00.48.12:592][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.10-00.48.12:664][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.10-00.48.12:756][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.10-00.48.12:804][  0]LogInit: Object subsystem initialized
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.10-00.48.12:853][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.48.12:880][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.10-00.48.12:880][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.10-00.48.12:969][  0]LogInit: Computer: CHRISTIAN
+[2015.06.10-00.48.12:969][  0]LogInit: User: Christian
+[2015.06.10-00.48.12:969][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.10-00.48.12:969][  0]LogInit: High frequency timer resolution =2.143571 MHz
+[2015.06.10-00.48.12:970][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2015.06.10-00.48.12:971][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.10-00.48.12:971][  0]LogMemory: Process Physical Memory: 45.86 MB used, 45.86 MB peak
+[2015.06.10-00.48.12:971][  0]LogMemory: Process Virtual Memory: 26.15 MB used, 26.16 MB peak
+[2015.06.10-00.48.12:971][  0]LogMemory: Physical Memory: 2020.08 MB used, 3983.27 MB total
+[2015.06.10-00.48.12:971][  0]LogMemory: Virtual Memory: 287.77 MB used, 8388608.00 MB total
+[2015.06.10-00.48.13:127][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.06.10-00.48.13:127][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.06.10-00.48.13:131][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.10-00.48.13:131][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.10-00.48.13:131][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.10-00.48.13:147][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.06.10-00.48.13:152][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.10-00.48.13:676][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.10-00.48.13:831][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.10-00.48.13:831][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.10-00.48.13:955][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.10-00.48.25:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.48.27:501][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.48.27:617][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.10-00.48.29:390][  0]LogDerivedDataCache: Loaded boot cache 1.77s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-00.48.29:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.10-00.48.29:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.10-00.48.29:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.10-00.48.29:747][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.10-00.48.29:875][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.10-00.48.35:472][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.10-00.48.35:472][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.10-00.48.36:194][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.10-00.48.36:608][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.10-00.48.52:346][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.10-00.48.52:890][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.48.52:890][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.48.52:890][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.48.52:890][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.10-00.48.52:890][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.10-00.48.52:903][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.48.53:615][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.10-00.48.53:615][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.10-00.48.53:783][  0]LogEngine: Initializing Engine...
+[2015.06.10-00.48.56:194][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.10-00.48.56:217][  0]LogInit: FAudioDevice initialized.
+[2015.06.10-00.48.56:327][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.10-00.48.56:356][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-00.48.56:367][  0]LogInit: Texture streaming: Enabled
+[2015.06.10-00.48.56:551][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.10-00.48.56:551][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-00.48.56:551][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-00.48.56:551][  0]LogAnalytics: SetUserId 4e297af04bcf42a9c1a5f0a40d93044f|256081b0662a4905b440382e278adc23|f34cf462-a968-4b10-a304-f8ad71127acc
+[2015.06.10-00.48.56:551][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.10-00.48.56:700][  0]LogInit: Transaction tracking system initialized
+[2015.06.10-00.48.57:504][  0]BlueprintLog: New page: Editor Load
+[2015.06.10-00.48.57:696][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.06.10-00.48.57:698][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.10-00.48.59:215][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.48.59:873][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.49.00:582][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.10-00.49.00:582][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.10-00.49.00:773][  0]LogConsoleResponse:Display: 
+[2015.06.10-00.49.01:446][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.10-00.49.02:157][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.49.02:157][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.10-00.49.02:209][  0]LightingResults: New page: Lighting Build
+[2015.06.10-00.49.02:253][  0]MapCheck: New page: Map Check
+[2015.06.10-00.49.02:253][  0]LightingResults: New page: Lighting Build
+[2015.06.10-00.49.02:286][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6D1B0360
+[2015.06.10-00.49.02:366][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.10-00.49.04:805][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.10-00.49.07:024][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.10-00.49.07:026][  0]Cmd: MAP CHECKDEP
+[2015.06.10-00.49.07:026][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 9, 2015, 10:49:07 AM
+[2015.06.10-00.49.07:157][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.568ms to complete.
+[2015.06.10-00.49.07:157][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.999
+[2015.06.10-00.49.07:454][  0]LogCollectionManager: Loaded 0 collections in 0.002572 seconds
+[2015.06.10-00.49.07:470][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 1696 classes and 261 folders.
+[2015.06.10-00.49.07:493][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.10-00.49.07:531][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2015.06.10-00.49.07:704][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.10-00.49.07:706][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.10-00.49.07:732][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.10-00.49.07:760][  0]LogLoad: Full Startup: 62.95 seconds (BP compile: 0.76 seconds)
+[2015.06.10-00.49.08:523][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.10-00.49.08:931][  0]LogRenderer:Warning: Reallocating scene render targets to support 800x376 (Frame:6).
+[2015.06.10-00.49.13:036][ 11]LogAssetRegistry: Asset discovery search completed in 15.3514 seconds
+[2015.06.10-00.49.27:422][ 93]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.49.27:442][ 93]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Bark.uasset.
+[2015.06.10-00.49.27:468][ 93]LoadErrors:Error: Error /Game/Bark : Can't find file for asset. /Game/bark_loo
+[2015.06.10-00.49.27:469][ 93]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.49.27:470][ 93]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Bark.uasset.
+[2015.06.10-00.49.27:848][ 93]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.49.27:867][ 93]LoadErrors: Info Failed to load /Game/bark_loo.bark_loo Referenced by MaterialExpressionTextureSample_2
+[2015.06.10-00.49.27:867][ 93]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading NULL.
+[2015.06.10-00.49.29:877][ 93]LogMaterial: Missing cached shader map for material Bark, compiling. 
+[2015.06.10-00.49.30:087][ 93]LogMaterial:Warning: Failed to compile Material /Game/Bark.Bark for platform PCD3D_SM4, Default Material will be used in game.
+[2015.06.10-00.49.30:087][ 93]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.06.10-00.49.46:342][ 93]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.10-00.49.46:344][ 93]LightingResults: New page: Lighting Build
+[2015.06.10-00.49.46:395][ 93]LoadErrors: New page: Loading map: Scene1.umap
+[2015.06.10-00.49.46:458][ 93]MapCheck: New page: Map Check
+[2015.06.10-00.49.46:458][ 93]LightingResults: New page: Lighting Build
+[2015.06.10-00.49.46:560][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A698DA200
+[2015.06.10-00.49.51:390][ 93]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.10-00.49.51:665][ 93]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.49.51:779][ 93]Cmd: MAP CHECKDEP
+[2015.06.10-00.49.51:779][ 93]MapCheck: New page: Scene1 - Jun 9, 2015, 10:49:51 AM
+[2015.06.10-00.49.51:902][ 93]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.56ms to complete.
+[2015.06.10-00.49.51:903][ 93]LogFileHelpers: Loading map 'Scene1' took 5.703
+[2015.06.10-00.49.52:003][ 94]Cmd: UpdateLandscapeEditorData -warnings
+[2015.06.10-00.49.52:179][ 94]Cmd: UpdateLandscapeEditorData
+[2015.06.10-00.50.40:954][708]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.06.10-00.50.49:696][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-00.51.05:529][622]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.06.10-00.51.09:031][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment'
+[2015.06.10-00.51.14:763][944]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-00.51.16:503][998]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-00.51.17:580][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.10-00.51.20:745][104]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-00.51.32:514][432]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-00.51.34:457][492]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-00.51.35:649][525]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-00.51.37:518][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.06.10-00.51.41:498][694]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-00.51.43:317][746]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-00.51.53:880][ 54]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.06.10-00.51.54:518][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.06.10-00.51.55:407][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.06.10-00.53.58:714][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.10-00.53.59:118][348]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.06.10-00.54.00:030][348]LogSavePackage: Save=991.791748ms
+[2015.06.10-00.54.00:030][348]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene185B828024908D68120144CB5B9E9F760.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap'
+[2015.06.10-00.54.27:509][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.06.10-00.54.53:072][770]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.06.10-00.55.03:629][ 65]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment/Materials'
+[2015.06.10-00.55.09:855][265]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment/Textures'
+[2015.06.10-00.55.15:253][428]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment'
+[2015.06.10-00.55.18:127][566]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake'
+[2015.06.10-00.55.23:024][688]LogTexture:Display: Building textures: T_MediumWaves_N (BC5)
+[2015.06.10-00.55.23:355][688]LogTexture:Display: Building textures: T_SmallWaves_N (BC5)
+[2015.06.10-00.55.23:509][688]LogTexture:Display: Building textures: T_MediumWaves_H (G8)
+[2015.06.10-00.55.23:645][688]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-00.55.23:959][688]LogTexture:Display: Building textures: T_LargeWaves_H (G8)
+[2015.06.10-00.55.32:053][888]LogMaterial: Missing cached shader map for material T_MediumWaves_H_Mat, compiling. 
+[2015.06.10-00.55.32:054][888]LogMaterial:Warning: Failed to compile Material /Game/WaterPlane/Lake/Textures/T_MediumWaves_H_Mat.T_MediumWaves_H_Mat for platform PCD3D_SM4, Default Material will be used in game.
+[2015.06.10-00.55.32:054][888]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Grayscale for /Game/WaterPlane/Lake/Textures/T_MediumWaves_H.T_MediumWaves_H
+[2015.06.10-00.55.37:613][ 19]LogMaterial: Missing cached shader map for material T_SmallWaves_Mat, compiling. 
+[2015.06.10-00.55.42:232][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake/Blueprint'
+[2015.06.10-00.55.43:702][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake'
+[2015.06.10-00.55.47:095][238]LogTexture:Display: Building textures: T_LargeWaves_N (BC5)
+[2015.06.10-00.55.48:045][238]LogTexture:Display: Building textures: T_Seafoam_01 (AutoDXT)
+[2015.06.10-00.56.04:149][238]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2015.06.10-00.56.04:386][238]LogStaticMesh: Building static mesh SM_OceanWater...
+[2015.06.10-00.56.04:770][238]LogStaticMesh: Built static mesh [413.827667ms] /Game/WaterPlane/Meshes/SM_OceanWater.SM_OceanWater
+[2015.06.10-00.56.04:896][238]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2015.06.10-00.57.32:874][516]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-00.57.32:916][516]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 10:57:32 AM)
+[2015.06.10-00.57.33:002][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086630s)
+[2015.06.10-00.57.33:003][516]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2015.06.10-00.57.33:010][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.093771s)
+[2015.06.10-00.57.33:186][516]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-00.57.33:239][516]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.57.33:267][516]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-17.57.33
+[2015.06.10-00.57.33:308][516]LogWorld: Bringing up level for play took: 0.068155
+[2015.06.10-00.57.33:523][516]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.486
+[2015.06.10-00.57.33:941][517]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054692 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_4'
+[2015.06.10-00.57.37:724][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.10-00.57.37:839][677]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.06.10-00.57.38:534][677]LogSavePackage: Save=710.867981ms
+[2015.06.10-00.57.38:534][677]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1F301E155408B4C7409FDFAB4D0990916.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap'
+[2015.06.10-00.57.47:376][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6B2D6840
+[2015.06.10-00.57.50:809][103]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-00.57.50:810][103]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 10:57:50 AM)
+[2015.06.10-00.57.50:856][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044553s)
+[2015.06.10-00.57.50:858][103]LogPlayLevel: PIE: World Init took: (0.001778s)
+[2015.06.10-00.57.50:858][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.046742s)
+[2015.06.10-00.57.50:899][103]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-00.57.50:901][103]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.57.50:937][103]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-17.57.50
+[2015.06.10-00.57.50:938][103]LogWorld: Bringing up level for play took: 0.036676
+[2015.06.10-00.57.50:942][103]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 -0.094
+[2015.06.10-00.58.59:410][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A69226E80
+[2015.06.10-00.59.05:039][187]Cmd: TRANSACTION UNDO
+[2015.06.10-00.59.05:039][187]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.06.10-00.59.11:969][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.06.10-00.59.13:494][422]Cmd: DELETE
+[2015.06.10-00.59.13:494][422]Cmd: ACTOR DELETE
+[2015.06.10-00.59.13:571][422]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.10-00.59.13:613][422]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2015.06.10-00.59.15:843][491]Cmd: TRANSACTION UNDO
+[2015.06.10-00.59.15:843][491]LogEditorTransaction: Undo Delete Actors
+[2015.06.10-00.59.17:906][534]Cmd: DELETE
+[2015.06.10-00.59.17:906][534]Cmd: ACTOR DELETE
+[2015.06.10-00.59.17:912][534]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.10-00.59.17:976][534]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.06.10-00.59.19:076][569]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.06.10-00.59.32:995][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment'
+[2015.06.10-00.59.54:009][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-00.59.56:488][504]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-00.59.57:662][534]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-00.59.58:477][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.00.02:388][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.00.04:447][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-01.00.05:781][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.00.08:288][815]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Translucent'
+[2015.06.10-01.00.09:146][836]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean'
+[2015.06.10-01.00.10:384][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Meshes'
+[2015.06.10-01.00.18:149][ 66]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.00.19:298][ 95]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-01.00.20:067][116]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.00.20:788][134]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-01.00.21:464][152]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.00.23:120][197]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.10-01.00.32:324][441]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.00.35:419][523]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.00.36:147][542]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-01.00.36:973][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.00.38:450][605]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-01.00.39:500][633]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.00.40:471][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-01.00.41:335][684]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.00.42:942][727]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.06.10-01.00.48:914][864]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.10-01.00.50:445][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.00.51:583][933]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-01.00.52:326][951]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.00.54:033][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.01.03:467][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.10-01.01.07:557][357]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-01.01.08:166][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.01.09:559][408]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.10-01.01.18:043][602]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2015.06.10-01.01.32:327][943]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack/Character'
+[2015.06.10-01.01.39:182][121]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.06.10-01.01.44:846][264]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-01.01.45:624][283]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-01.01.53:735][488]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.06.10-01.01.57:365][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Meshes'
+[2015.06.10-01.01.58:755][617]LogActorFactory: Actor Factory created SM_OceanWater
+[2015.06.10-01.01.59:819][645]LogActorFactory: Actor Factory created SM_OceanWater
+[2015.06.10-01.02.09:425][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.06.10-01.02.10:659][931]Cmd: DELETE
+[2015.06.10-01.02.10:660][931]Cmd: ACTOR DELETE
+[2015.06.10-01.02.10:664][931]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.10-01.02.10:714][931]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2015.06.10-01.02.12:196][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_OceanWater)
+[2015.06.10-01.03.32:254][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.10-01.03.33:040][137]LogSavePackage: Save=701.541016ms
+[2015.06.10-01.03.33:040][137]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene11136B5DB4DF150FEF4AB83AC5054BEA5.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap'
+[2015.06.10-01.03.42:598][380]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.03.42:599][380]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:03:42 AM)
+[2015.06.10-01.03.42:641][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040806s)
+[2015.06.10-01.03.42:642][380]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2015.06.10-01.03.42:643][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.042934s)
+[2015.06.10-01.03.42:682][380]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.03.42:685][380]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.03.42:713][380]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.03.42
+[2015.06.10-01.03.42:737][380]LogWorld: Bringing up level for play took: 0.051946
+[2015.06.10-01.03.42:742][380]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 -0.295
+[2015.06.10-01.04.51:977][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A68D44E00
+[2015.06.10-01.04.53:590][460]Cmd: TRANSACTION UNDO
+[2015.06.10-01.04.53:590][460]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.06.10-01.04.58:539][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_OceanWater)
+[2015.06.10-01.04.59:789][639]Cmd: DELETE
+[2015.06.10-01.04.59:789][639]Cmd: ACTOR DELETE
+[2015.06.10-01.04.59:794][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.10-01.04.59:853][639]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2015.06.10-01.10.58:493][ 18]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.06.10-01.11.10:755][289]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake/Textures'
+[2015.06.10-01.11.32:553][787]Cmd: TRANSACTION UNDO
+[2015.06.10-01.11.32:553][787]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.11.39:305][930]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.10-01.11.57:833][351]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean'
+[2015.06.10-01.12.00:691][419]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean/Textures'
+[2015.06.10-01.12.05:811][537]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Translucent'
+[2015.06.10-01.12.08:490][603]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Translucent/Materials'
+[2015.06.10-01.12.12:276][692]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Translucent/Blueprint'
+[2015.06.10-01.12.15:418][752]LogMaterial: Missing cached shader map for material M_TranslucentWater, compiling. 
+[2015.06.10-01.12.23:289][902]Cmd: TRANSACTION UNDO
+[2015.06.10-01.12.23:290][902]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.12.24:157][916]Cmd: TRANSACTION UNDO
+[2015.06.10-01.12.24:157][916]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.12.26:737][968]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Translucent/Materials'
+[2015.06.10-01.12.28:723][  5]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean/Textures'
+[2015.06.10-01.12.44:797][327]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean/Materials'
+[2015.06.10-01.12.56:648][544]LogMaterial: Missing cached shader map for material FakedCaustics, compiling. 
+[2015.06.10-01.14.03:226][975]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.14.03:226][975]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:14:03 AM)
+[2015.06.10-01.14.03:277][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049634s)
+[2015.06.10-01.14.03:280][975]LogPlayLevel: PIE: World Init took: (0.002231s)
+[2015.06.10-01.14.03:280][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.052225s)
+[2015.06.10-01.14.03:324][975]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.14.03:326][975]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.14.03:361][975]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.14.03
+[2015.06.10-01.14.03:363][975]LogWorld: Bringing up level for play took: 0.036201
+[2015.06.10-01.14.03:372][975]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.335
+[2015.06.10-01.14.26:075][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A693B16C0
+[2015.06.10-01.14.39:429][113]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.14.39:430][113]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:14:39 AM)
+[2015.06.10-01.14.39:495][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053053s)
+[2015.06.10-01.14.39:496][113]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2015.06.10-01.14.39:496][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.054884s)
+[2015.06.10-01.14.39:541][113]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.14.39:543][113]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.14.39:573][113]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.14.39
+[2015.06.10-01.14.39:575][113]LogWorld: Bringing up level for play took: 0.030550
+[2015.06.10-01.14.39:579][113]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.542
+[2015.06.10-01.15.01:797][927]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A04684CC0
+[2015.06.10-01.15.04:573][988]Cmd: SELECT NONE
+[2015.06.10-01.15.05:876][ 23]Cmd: SELECT NONE
+[2015.06.10-01.15.07:295][ 57]Cmd: SELECT NONE
+[2015.06.10-01.15.07:955][ 75]Cmd: SELECT NONE
+[2015.06.10-01.15.08:498][ 90]Cmd: SELECT NONE
+[2015.06.10-01.15.14:320][228]Cmd: DELETE
+[2015.06.10-01.15.14:320][228]Cmd: ACTOR DELETE
+[2015.06.10-01.15.14:325][228]LogEditorActor: Deleted Actor: Brush
+[2015.06.10-01.15.14:425][228]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2015.06.10-01.15.27:103][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.10-01.15.27:852][347]LogSavePackage: Save=721.580017ms
+[2015.06.10-01.15.27:852][347]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1_Auto1D79D433C4DDCA0AA2128669177C163CA.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto1.umap'
+[2015.06.10-01.15.27:862][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 0.900
+[2015.06.10-01.15.27:862][347]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.900
+[2015.06.10-01.15.27:904][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WaterPlane/Lake/Textures/T_MediumWaves_H_Mat] ([1] browsable assets)...
+[2015.06.10-01.15.27:966][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/WaterPlane/Lake/Textures/T_MediumWaves_H_Mat.T_MediumWaves_H_Mat]
+[2015.06.10-01.15.27:966][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/WaterPlane/Lake/Textures/T_MediumWaves_H_Mat]
+[2015.06.10-01.15.28:529][347]LogSavePackage: Save=554.612366ms
+[2015.06.10-01.15.28:531][347]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/T_MediumWaves_H_Mat_Auto1DD911EF0419C0A31B26F7CB370D8086E.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/WaterPlane/Lake/Textures/T_MediumWaves_H_Mat_Auto1.uasset'
+[2015.06.10-01.15.28:612][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WaterPlane/Lake/Textures/T_SmallWaves_Mat] ([1] browsable assets)...
+[2015.06.10-01.15.28:646][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/WaterPlane/Lake/Textures/T_SmallWaves_Mat.T_SmallWaves_Mat]
+[2015.06.10-01.15.28:646][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/WaterPlane/Lake/Textures/T_SmallWaves_Mat]
+[2015.06.10-01.15.29:015][347]LogSavePackage: Save=365.712158ms
+[2015.06.10-01.15.29:017][347]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/T_SmallWaves_Mat_Auto141CE75EF49FF77456641B58F445C2ECC.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/WaterPlane/Lake/Textures/T_SmallWaves_Mat_Auto1.uasset'
+[2015.06.10-01.15.29:030][347]LogFileHelpers: Auto-saving content packages took 1.168
+[2015.06.10-01.20.57:075][419]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.10-01.21.12:068][790]Cmd: TRANSACTION UNDO
+[2015.06.10-01.21.12:069][790]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.21.12:197][790]LogActorComponent: ~FComponentReregisterContext: (/Game/Scene1.Scene1:PersistentLevel.ModelComponent_63) Component already registered.
+[2015.06.10-01.21.12:881][806]Cmd: TRANSACTION UNDO
+[2015.06.10-01.21.12:881][806]LogEditorTransaction: Undo Move Actors
+[2015.06.10-01.21.13:664][822]Cmd: TRANSACTION UNDO
+[2015.06.10-01.21.13:664][822]LogEditorTransaction: Undo Brush Add
+[2015.06.10-01.21.14:906][860]Cmd: TRANSACTION REDO
+[2015.06.10-01.21.14:906][860]LogEditorTransaction: Redo Brush Add
+[2015.06.10-01.21.36:627][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.06.10-01.21.36:797][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.06.10-01.21.36:805][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.06.10-01.21.36:876][374]LogRenderer:Warning: Reallocating scene render targets to support 992x616 (Frame:39044).
+[2015.06.10-01.22.24:575][611]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Ocean/Materials'
+[2015.06.10-01.22.26:826][672]Cmd: TRANSACTION UNDO
+[2015.06.10-01.22.26:827][672]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.22.26:926][672]LogActorComponent: ~FComponentReregisterContext: (/Game/Scene1.Scene1:PersistentLevel.ModelComponent_71) Component already registered.
+[2015.06.10-01.22.28:246][697]Cmd: TRANSACTION UNDO
+[2015.06.10-01.22.28:246][697]LogEditorTransaction: Undo Brush Add
+[2015.06.10-01.23.42:819][193]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.10-01.23.53:245][445]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.23.54:079][466]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.24.16:439][ 98]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.24.17:092][111]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.24.34:760][560]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.24.34:760][560]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:24:34 AM)
+[2015.06.10-01.24.34:807][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045608s)
+[2015.06.10-01.24.34:808][560]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2015.06.10-01.24.34:809][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.047294s)
+[2015.06.10-01.24.34:852][560]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.24.34:854][560]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.24.34:881][560]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.24.34
+[2015.06.10-01.24.34:882][560]LogWorld: Bringing up level for play took: 0.027627
+[2015.06.10-01.24.34:907][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 -0.13
+[2015.06.10-01.24.43:769][882]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-01.24.43:842][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A010F1F80
+[2015.06.10-01.24.46:122][936]Cmd: DELETE
+[2015.06.10-01.24.46:122][936]Cmd: ACTOR DELETE
+[2015.06.10-01.24.46:129][936]LogEditorActor: Deleted Actor: Brush
+[2015.06.10-01.24.46:271][936]LogEditorActor: Deleted 1 Actors (0.148 secs)
+[2015.06.10-01.24.48:413][986]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.06.10-01.24.56:927][162]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.24.58:054][188]Cmd: EDCALLBACK SURFPROPS
+[2015.06.10-01.25.13:618][395]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.13:618][395]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.25.14:408][409]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.14:408][409]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.25.15:077][425]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.15:078][425]LogEditorTransaction: Undo Select Surfaces
+[2015.06.10-01.25.16:280][450]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.06.10-01.25.17:407][474]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.17:407][474]LogEditorTransaction: Undo Clicking on Actors
+[2015.06.10-01.25.17:914][483]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.17:914][483]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.25.18:904][508]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.06.10-01.25.19:645][524]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.19:645][524]LogEditorTransaction: Undo Clicking on Actors
+[2015.06.10-01.25.20:087][534]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.20:088][534]LogEditorTransaction: Undo Select Surface
+[2015.06.10-01.25.20:574][544]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.20:574][544]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.25.21:134][558]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.21:134][558]LogEditorTransaction: Undo Select Surface
+[2015.06.10-01.25.21:795][572]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.21:795][572]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.25.22:393][584]Cmd: TRANSACTION UNDO
+[2015.06.10-01.25.22:393][584]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.25.22:491][584]LogActorComponent: ~FComponentReregisterContext: (/Game/Scene1.Scene1:PersistentLevel.ModelComponent_90) Component already registered.
+[2015.06.10-01.25.45:177][ 95]Cmd: CAMERA SNAP
+[2015.06.10-01.25.46:650][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.10-01.25.46:712][126]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.06.10-01.25.47:432][126]LogSavePackage: Save=751.697998ms
+[2015.06.10-01.25.47:432][126]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1_Auto2CBB56AB24F5B5350773EB691E5DD7C9C.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto2.umap'
+[2015.06.10-01.25.47:443][126]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 0.935
+[2015.06.10-01.25.47:444][126]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.935
+[2015.06.10-01.25.47:478][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst] ([1] browsable assets)...
+[2015.06.10-01.25.47:515][126]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst.M_OceanWater_1_Inst]
+[2015.06.10-01.25.47:515][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst]
+[2015.06.10-01.25.48:078][126]LogSavePackage: Save=501.771576ms
+[2015.06.10-01.25.48:080][126]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/M_OceanWater_1_Inst_Auto21CC80BF2429E2CDF75BAA395F58EA39A.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst_Auto2.uasset'
+[2015.06.10-01.25.48:129][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst_Inst] ([1] browsable assets)...
+[2015.06.10-01.25.48:167][126]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst_Inst.M_OceanWater_1_Inst_Inst]
+[2015.06.10-01.25.48:167][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst_Inst]
+[2015.06.10-01.25.48:655][126]LogSavePackage: Save=483.296326ms
+[2015.06.10-01.25.48:657][126]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/M_OceanWater_1_Inst_Inst_Auto23756066B4C2F8DE9C52E6FA3F91B7DBE.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/WaterPlane/Ocean/Materials/M_OceanWater_1_Inst_Inst_Auto2.uasset'
+[2015.06.10-01.25.48:667][126]LogFileHelpers: Auto-saving content packages took 1.223
+[2015.06.10-01.26.42:715][293]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2015.06.10-01.26.42:793][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.06.10-01.26.43:318][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.06.10-01.26.43:318][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.06.10-01.26.43:318][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.06.10-01.26.43:318][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.06.10-01.26.43:496][293]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2015.06.10-01.26.43:516][293]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.26.43:579][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2015.06.10-01.27.00:477][823]Cmd: TRANSACTION UNDO
+[2015.06.10-01.27.00:477][823]LogEditorTransaction: Undo Select Brush Surface
+[2015.06.10-01.27.01:145][837]Cmd: TRANSACTION UNDO
+[2015.06.10-01.27.01:145][837]LogEditorTransaction: Undo Select Surfaces
+[2015.06.10-01.27.01:913][854]Cmd: TRANSACTION UNDO
+[2015.06.10-01.27.01:914][854]LogEditorTransaction: Undo Create Actors
+[2015.06.10-01.27.02:033][854]LogActorComponent: ~FComponentReregisterContext: (/Game/Scene1.Scene1:PersistentLevel.ModelComponent_90) Component already registered.
+[2015.06.10-01.27.18:881][ 61]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake'
+[2015.06.10-01.27.20:894][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake/Materials'
+[2015.06.10-01.27.31:917][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.06.10-01.27.31:968][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.06.10-01.27.31:968][324]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.06.10-01.27.44:918][ 52]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.27.44:943][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.06.10-01.27.45:029][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.06.10-01.27.45:029][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.06.10-01.27.45:029][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.06.10-01.27.45:030][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.06.10-01.27.45:058][ 52]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.27.45:067][ 52]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.27.45:096][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.06.10-01.27.45:101][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.06.10-01.27.45:105][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObjectParameter_3, compiling. 
+[2015.06.10-01.27.45:111][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObjectParameter_7, compiling. 
+[2015.06.10-01.27.45:116][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.06.10-01.27.45:158][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObjectParameter_5, compiling. 
+[2015.06.10-01.27.45:179][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObjectParameter_8, compiling. 
+[2015.06.10-01.27.57:280][382]MaterialEditorStats: Info Base pass shader with static lighting: 208 instructions
+[2015.06.10-01.27.57:281][382]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 180 instructions
+[2015.06.10-01.27.57:281][382]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.06.10-01.27.57:281][382]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.06.10-01.28.25:906][783]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.28.25:934][783]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.28.25:951][783]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.28.33:817][ 49]LogMaterialEditor: Saving and Compiling material M_LakeWater_01
+[2015.06.10-01.28.38:836][ 49]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.28.38:906][ 49]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.28.38:998][ 49]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.28.39:131][ 49]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.28.39:160][ 49]LogMaterial: 0.006753 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.06.10-01.28.56:185][ 49]LogSavePackage: Save=320.760071ms
+[2015.06.10-01.28.56:185][ 49]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/M_LakeWater_013DEA827F4F948680025300BABF0DA445.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/WaterPlane/Lake/Materials/M_LakeWater_01.uasset'
+[2015.06.10-01.28.56:293][ 49]MaterialEditorStats: Info Base pass shader with static lighting: 210 instructions
+[2015.06.10-01.28.56:294][ 49]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 191 instructions
+[2015.06.10-01.28.56:294][ 49]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 227 instructions
+[2015.06.10-01.28.56:294][ 49]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.06.10-01.28.56:294][ 49]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.06.10-01.30.32:030][814]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.30.32:031][814]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:30:32 AM)
+[2015.06.10-01.30.32:160][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108107s)
+[2015.06.10-01.30.32:162][814]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2015.06.10-01.30.32:162][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.110115s)
+[2015.06.10-01.30.32:221][814]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.30.32:227][814]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.30.32:259][814]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.30.32
+[2015.06.10-01.30.32:260][814]LogWorld: Bringing up level for play took: 0.032096
+[2015.06.10-01.30.32:265][814]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 1.229
+[2015.06.10-01.30.51:442][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A1391C360
+[2015.06.10-01.30.51:442][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A01BC3880
+[2015.06.10-01.30.51:443][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6B62C2C0
+[2015.06.10-01.30.51:443][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A7AC7B560
+[2015.06.10-01.30.54:967][457]Cmd: DELETE
+[2015.06.10-01.30.54:967][457]Cmd: ACTOR DELETE
+[2015.06.10-01.30.54:970][457]LogEditorActor: Deleted Actor: Brush
+[2015.06.10-01.30.55:027][457]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2015.06.10-01.31.00:178][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Environment'
+[2015.06.10-01.31.06:722][717]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.06.10-01.31.08:596][762]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HorrorTextures'
+[2015.06.10-01.31.09:089][769]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.31.10:662][808]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.06.10-01.31.11:851][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.06.10-01.31.13:239][862]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-01.31.18:855][998]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.06.10-01.31.24:101][102]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-01.31.25:189][126]LogActorFactory: Actor Factory created Floor_400x400
+[2015.06.10-01.31.55:813][731]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake'
+[2015.06.10-01.31.57:593][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane/Lake/Materials'
+[2015.06.10-01.32.02:228][853]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.32.02:228][853]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:32:02 AM)
+[2015.06.10-01.32.02:358][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128423s)
+[2015.06.10-01.32.02:360][853]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2015.06.10-01.32.02:360][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.130755s)
+[2015.06.10-01.32.02:404][853]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.32.02:406][853]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.32.02:437][853]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.32.02
+[2015.06.10-01.32.02:439][853]LogWorld: Bringing up level for play took: 0.032061
+[2015.06.10-01.32.02:443][853]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 -0.594
+[2015.06.10-01.32.17:062][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A010D9D00
+[2015.06.10-01.33.01:857][143]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.33.01:870][143]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.33.19:763][508]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.33.19:790][508]LogMaterial: 0.000291 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.33.23:463][635]LogMaterialEditor: Saving and Compiling material M_LakeWater_01
+[2015.06.10-01.33.27:030][635]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.33.27:116][635]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.33.27:208][635]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.33.27:287][635]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.33.27:323][635]LogMaterial: 0.007001 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.06.10-01.33.47:300][635]LogSavePackage: Save=310.846252ms
+[2015.06.10-01.33.47:300][635]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/M_LakeWater_01F91FFDE04EE7D90F1100F2B8ED02F1A3.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/WaterPlane/Lake/Materials/M_LakeWater_01.uasset'
+[2015.06.10-01.33.47:310][635]MaterialEditorStats: Info Base pass shader with static lighting: 213 instructions
+[2015.06.10-01.33.47:310][635]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 194 instructions
+[2015.06.10-01.33.47:310][635]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 230 instructions
+[2015.06.10-01.33.47:310][635]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.06.10-01.33.47:310][635]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.06.10-01.33.56:108][958]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-01.33.56:108][958]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 11:33:56 AM)
+[2015.06.10-01.33.56:156][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046453s)
+[2015.06.10-01.33.56:157][958]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2015.06.10-01.33.56:157][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.048210s)
+[2015.06.10-01.33.56:200][958]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-01.33.56:202][958]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-01.33.56:230][958]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-18.33.56
+[2015.06.10-01.33.56:232][958]LogWorld: Bringing up level for play took: 0.028578
+[2015.06.10-01.33.56:236][958]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 -0.8
+[2015.06.10-01.34.18:641][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A109F6340
+[2015.06.10-01.34.59:711][945]Cmd: TRANSACTION UNDO
+[2015.06.10-01.34.59:711][945]LogEditorTransaction: Undo Create Pin Link
+[2015.06.10-01.34.59:769][945]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.34.59:856][945]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.34.59:874][945]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.00:425][953]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.00:425][953]LogEditorTransaction: Undo Move Node
+[2015.06.10-01.35.00:524][953]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.00:541][953]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.00:751][957]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.00:751][957]LogEditorTransaction: Undo Create Pin Link
+[2015.06.10-01.35.00:818][957]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.00:893][957]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.00:910][957]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.01:050][960]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.01:051][960]LogEditorTransaction: Undo Drop Objects on Selected Actors
+[2015.06.10-01.35.01:162][960]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.01:180][960]LogMaterial: 0.000190 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.02:308][979]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.02:308][979]LogEditorTransaction: Undo Drop Objects on Selected Actors
+[2015.06.10-01.35.02:391][979]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.02:412][979]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.02:728][985]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.02:728][985]LogEditorTransaction: Undo Move Actors
+[2015.06.10-01.35.02:850][985]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.02:871][985]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.03:234][992]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.03:234][992]LogEditorTransaction: Undo Scale Actors
+[2015.06.10-01.35.03:417][992]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.03:436][992]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.03:699][997]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.03:699][997]LogEditorTransaction: Undo Scale Actors
+[2015.06.10-01.35.03:816][997]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.03:838][997]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.03:987][  0]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.03:987][  0]LogEditorTransaction: Undo Scale Actors
+[2015.06.10-01.35.04:127][  0]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.04:148][  0]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.04:298][  3]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.04:298][  3]LogEditorTransaction: Undo Move Actors
+[2015.06.10-01.35.04:414][  3]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.04:436][  3]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.05:441][ 20]Cmd: TRANSACTION UNDO
+[2015.06.10-01.35.05:441][ 20]LogEditorTransaction: Undo Move Actors
+[2015.06.10-01.35.05:563][ 20]LogMaterial: Missing cached shader map for material M_LakeWater_01, compiling. 
+[2015.06.10-01.35.05:585][ 20]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.06.10-01.35.17:292][ 90]MaterialEditorStats: Info Base pass shader with static lighting: 194 instructions
+[2015.06.10-01.35.17:292][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 175 instructions
+[2015.06.10-01.35.17:292][ 90]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 211 instructions
+[2015.06.10-01.35.17:293][ 90]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.06.10-01.35.17:293][ 90]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.06.10-01.36.45:784][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.06.10-01.36.46:492][347]LogSavePackage: Save=667.543091ms
+[2015.06.10-01.36.46:492][347]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1_Auto3E647B50C4DD0CC32458CD891F135D5EA.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Autosaves/Game/Scene1_Auto3.umap'
+[2015.06.10-01.36.46:537][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene1' took 0.862
+[2015.06.10-01.36.46:537][347]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.862
+[2015.06.10-01.54.34:058][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.10-01.54.34:775][618]LogSavePackage: Save=641.061096ms
+[2015.06.10-01.54.34:775][618]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1F16DDBA5481C0582AC735D88B5BD5C1A.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap'
+[2015.06.10-01.54.47:451][646]Cmd: QUIT_EDITOR
+[2015.06.10-01.54.49:278][646]LogExit: Preparing to exit.
+[2015.06.10-01.54.51:248][646]LogExit: Editor shut down
+[2015.06.10-01.54.51:249][646]LogExit: Transaction tracking system shut down
+[2015.06.10-01.54.51:279][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A22C6FE20
+[2015.06.10-01.54.51:291][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6B62DC60
+[2015.06.10-01.54.51:298][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A68CC1440
+[2015.06.10-01.54.51:299][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A203FCE00
+[2015.06.10-01.54.51:299][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A22C6CD60
+[2015.06.10-01.54.51:300][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A6946D3A0
+[2015.06.10-01.54.53:586][646]LogExit: Object subsystem successfully closed.
+[2015.06.10-01.54.59:138][646]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.06.10-01.54.59:141][646]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.10-01.54.59:170][646]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.10-01.54.59:170][646]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.10-01.54.59:170][646]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.10-01.54.59:170][646]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.10-01.54.59:214][646]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.10-01.54.59:251][646]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.10-01.54.59:251][646]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.10-01.54.59:272][646]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.10-01.54.59:302][646]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.10-01.54.59:467][646]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.10-01.54.59:533][646]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.10-01.54.59:676][646]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.10-01.54.59:703][646]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.10-01.54.59:703][646]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.10-01.54.59:723][646]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.10-01.54.59:750][646]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.10-01.54.59:750][646]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.10-01.54.59:750][646]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.10-01.54.59:773][646]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.10-01.54.59:773][646]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.10-01.54.59:773][646]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.10-01.54.59:773][646]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.10-01.55.00:741][646]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.10-01.55.00:741][646]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.10-01.55.00:741][646]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.10-01.55.00:823][646]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.10-01.55.00:824][646]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.10-01.55.00:930][646]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.10-01.55.00:955][646]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.10-01.55.01:126][646]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.10-01.55.01:176][646]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.10-01.55.01:214][646]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.10-01.55.01:235][646]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.10-01.55.01:235][646]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.10-01.55.01:263][646]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.10-01.55.01:283][646]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.10-01.55.01:304][646]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.10-01.55.01:375][646]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.10-01.55.01:375][646]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.10-01.55.01:375][646]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.10-01.55.01:376][646]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.10-01.55.01:601][646]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.10-01.55.01:728][646]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.10-01.55.01:744][646]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.10-01.55.01:762][646]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.10-01.55.01:802][646]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.10-01.55.01:813][646]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.10-01.55.01:852][646]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.10-01.55.01:852][646]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.10-01.55.01:880][646]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.10-01.55.02:000][646]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.10-01.55.02:059][646]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.10-01.55.02:081][646]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.10-01.55.02:108][646]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.10-01.55.02:133][646]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.10-01.55.02:167][646]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.10-01.55.02:241][646]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.10-01.55.02:241][646]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.10-01.55.02:241][646]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.10-01.55.02:278][646]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.10-01.55.02:278][646]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.10-01.55.02:365][646]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.10-01.55.02:605][646]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.10-01.55.02:708][646]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.10-01.55.02:753][646]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.10-01.55.02:753][646]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.10-01.55.02:753][646]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.10-01.55.02:753][646]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.10-01.55.02:876][646]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.10-01.55.02:922][646]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.10-01.55.02:923][646]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.10-01.55.02:976][646]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.10-01.55.02:999][646]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.10-01.55.03:044][646]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.10-01.55.03:079][646]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.10-01.55.03:091][646]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.10-01.55.03:091][646]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.10-01.55.03:114][646]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.10-01.55.03:114][646]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.10-01.55.03:143][646]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.10-01.55.03:190][646]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.10-01.55.03:246][646]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.10-01.55.03:271][646]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.10-01.55.03:271][646]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.10-01.55.03:271][646]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.10-01.55.03:271][646]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.10-01.55.03:275][646]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.10-01.55.03:353][646]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.10-01.55.03:385][646]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.10-01.55.03:502][646]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.10-01.55.03:525][646]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.10-01.55.03:543][646]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.10-01.55.03:543][646]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.10-01.55.03:583][646]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.10-01.55.03:583][646]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.10-01.55.03:648][646]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.10-01.55.03:717][646]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.10-01.55.03:738][646]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.10-01.55.03:776][646]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.10-01.55.03:914][646]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.10-01.55.03:914][646]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.10-01.55.04:019][646]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.10-01.55.04:100][646]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.10-01.55.04:152][646]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.10-01.55.04:279][646]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.10-01.55.04:279][646]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.10-01.55.04:474][646]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.10-01.55.04:474][646]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.10-01.55.04:474][646]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.10-01.55.04:475][646]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.10-01.55.04:475][646]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.10-01.55.04:475][646]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.10-01.55.04:475][646]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.10-01.55.04:475][646]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.10-01.55.04:485][646]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.10-01.55.04:523][646]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.10-01.55.04:542][646]LogDerivedDataCache: Shutdown
+[2015.06.10-01.55.04:542][646]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.10-01.55.04:588][646]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.10-01.55.04:641][646]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.10-01.55.04:664][646]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.10-01.55.04:664][646]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.10-01.55.04:664][646]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.10-01.55.04:664][646]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.10-01.55.04:689][646]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.10-01.55.04:689][646]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.10-01.55.04:689][646]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.10-01.55.04:708][646]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.10-01.55.04:735][646]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.10-01.55.04:758][646]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.10-01.55.04:758][646]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.10-01.55.04:774][646]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.10-01.55.04:787][646]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.10-01.55.04:790][646]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.10-01.55.04:790][646]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.10-01.55.04:832][646]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.10-01.55.04:867][646]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.10-01.55.04:907][646]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.10-01.55.04:909][646]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.10-01.55.04:919][646]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.10-01.55.04:947][646]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.10-01.55.04:947][646]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.10-01.55.04:947][646]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.10-01.55.04:947][646]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.10-01.55.04:962][646]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.10-01.55.04:985][646]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.10-01.55.05:013][646]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.10-01.55.05:013][646]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.10-01.55.05:013][646]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.10-01.55.05:167][646]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.10-01.55.05:176][646]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.10-01.55.05:176][646]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.10-01.55.05:176][646]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.10-01.55.05:176][646]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.10-01.55.05:176][646]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.10-01.55.05:213][646]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.10-01.55.05:264][646]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.10-01.55.05:287][646]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.10-01.55.05:425][646]LogExit: Exiting.
+[2015.06.10-01.55.06:663][646]Log file closed, 06/09/15 18:55:06

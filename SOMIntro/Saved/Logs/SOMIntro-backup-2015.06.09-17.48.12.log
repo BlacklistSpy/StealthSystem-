@@ -1,0 +1,260 @@
+﻿Log file open, 06/09/15 17:32:12
+LogInit:Display: Running engine for game: SOMIntro
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.10-00.32.12:720][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.10-00.32.12:764][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.10-00.32.12:784][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.10-00.32.12:800][  0]LogInit: Object subsystem initialized
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.10-00.32.12:802][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-00.32.12:803][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.10-00.32.12:803][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.10-00.32.13:047][  0]LogInit: Computer: CHRISTIAN
+[2015.06.10-00.32.13:047][  0]LogInit: User: Christian
+[2015.06.10-00.32.13:047][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.10-00.32.13:047][  0]LogInit: High frequency timer resolution =2.143571 MHz
+[2015.06.10-00.32.13:047][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2015.06.10-00.32.13:048][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.10-00.32.13:048][  0]LogMemory: Process Physical Memory: 45.98 MB used, 45.98 MB peak
+[2015.06.10-00.32.13:048][  0]LogMemory: Process Virtual Memory: 26.16 MB used, 26.16 MB peak
+[2015.06.10-00.32.13:048][  0]LogMemory: Physical Memory: 3089.95 MB used, 3983.27 MB total
+[2015.06.10-00.32.13:048][  0]LogMemory: Virtual Memory: 287.77 MB used, 8388608.00 MB total
+[2015.06.10-00.32.13:072][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.06.10-00.32.13:072][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.06.10-00.32.13:074][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.10-00.32.13:074][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.10-00.32.13:074][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.10-00.32.13:084][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.06.10-00.32.13:086][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.10-00.32.13:147][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.10-00.32.13:239][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.10-00.32.13:239][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.10-00.32.13:367][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.10-00.32.17:092][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.32.17:968][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.32.18:069][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.10-00.32.18:136][  0]LogDerivedDataCache: Loaded boot cache 0.07s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-00.32.18:136][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.10-00.32.18:136][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.10-00.32.18:136][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.10-00.32.18:332][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.10-00.32.18:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.10-00.32.18:856][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.10-00.32.18:856][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.10-00.32.19:765][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.10-00.32.19:927][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.10-00.32.21:351][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.10-00.32.21:708][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.32.21:709][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.32.21:709][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.32.21:709][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.10-00.32.21:709][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.10-00.32.21:728][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.32.22:241][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.10-00.32.22:241][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.10-00.32.22:403][  0]LogEngine: Initializing Engine...
+[2015.06.10-00.32.24:666][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.10-00.32.24:686][  0]LogInit: FAudioDevice initialized.
+[2015.06.10-00.32.24:760][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.10-00.32.24:795][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/Christian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-00.32.24:807][  0]LogInit: Texture streaming: Enabled
+[2015.06.10-00.32.25:025][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.10-00.32.25:025][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-00.32.25:025][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-00.32.25:026][  0]LogAnalytics: SetUserId 4e297af04bcf42a9c1a5f0a40d93044f|256081b0662a4905b440382e278adc23|f34cf462-a968-4b10-a304-f8ad71127acc
+[2015.06.10-00.32.25:026][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.10-00.32.25:386][  0]LogInit: Transaction tracking system initialized
+[2015.06.10-00.32.25:713][  0]BlueprintLog: New page: Editor Load
+[2015.06.10-00.32.25:765][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.06.10-00.32.25:767][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.10-00.32.27:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.32.28:243][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-00.32.28:686][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.10-00.32.28:687][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.10-00.32.28:751][  0]LogConsoleResponse:Display: 
+[2015.06.10-00.32.29:108][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.10-00.32.29:346][  0]SourceControl: Info Source control is disabled
+[2015.06.10-00.32.29:347][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.10-00.32.29:382][  0]LightingResults: New page: Lighting Build
+[2015.06.10-00.32.29:403][  0]MapCheck: New page: Map Check
+[2015.06.10-00.32.29:403][  0]LightingResults: New page: Lighting Build
+[2015.06.10-00.32.29:446][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009E3267560
+[2015.06.10-00.32.29:573][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.10-00.32.33:494][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.10-00.32.36:654][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.06.10-00.32.36:709][  0]Cmd: MAP CHECKDEP
+[2015.06.10-00.32.36:710][  0]MapCheck: New page: ThirdPersonExampleMap - Jun 9, 2015, 10:32:36 AM
+[2015.06.10-00.32.36:862][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.383ms to complete.
+[2015.06.10-00.32.36:862][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.516
+[2015.06.10-00.32.48:448][  0]LogCollectionManager: Loaded 0 collections in 0.002663 seconds
+[2015.06.10-00.32.48:536][  0]LogContentBrowser: Native class hierarchy populated in 0.0884 seconds. Added 1696 classes and 261 folders.
+[2015.06.10-00.32.48:911][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.10-00.32.49:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0111 seconds. Added 1 classes and 2 folders.
+[2015.06.10-00.32.50:074][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.10-00.32.50:126][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.10-00.32.50:207][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.10-00.32.50:270][  0]LogLoad: Full Startup: 40.54 seconds (BP compile: 0.95 seconds)
+[2015.06.10-00.32.51:258][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.10-00.32.52:390][  0]LogRenderer:Warning: Reallocating scene render targets to support 800x376 (Frame:3).
+[2015.06.10-00.32.59:891][  9]LogAssetRegistry: Asset discovery search completed in 34.1361 seconds
+[2015.06.10-00.33.07:815][ 33]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.33.07:856][ 33]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Bark.uasset.
+[2015.06.10-00.33.07:885][ 33]LoadErrors:Error: Error /Game/Bark : Can't find file for asset. /Game/bark_loo
+[2015.06.10-00.33.07:886][ 33]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.33.07:886][ 33]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Bark.uasset.
+[2015.06.10-00.33.08:137][ 33]LogLinker:Warning: Can't find file '/Game/Custom_Tree'
+[2015.06.10-00.33.08:137][ 33]LogLinker:Warning: Can't find file for asset '/Game/Custom_Tree' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:137][ 33]LoadErrors:Error: Error /Game/Scene1 : Can't find file for asset. /Game/Custom_Tree
+[2015.06.10-00.33.08:138][ 33]LogLinker:Warning: Can't find file '/Game/Rock-Texture-Surface'
+[2015.06.10-00.33.08:139][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock-Texture-Surface' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:139][ 33]LoadErrors:Error: Error /Game/Scene1 : Can't find file for asset. /Game/Rock-Texture-Surface
+[2015.06.10-00.33.08:139][ 33]LogLinker:Warning: Can't find file '/Game/Rock1'
+[2015.06.10-00.33.08:140][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock1' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:140][ 33]LoadErrors:Error: Error /Game/Scene1 : Can't find file for asset. /Game/Rock1
+[2015.06.10-00.33.08:234][ 33]LogLinker:Warning: Can't find file '/Game/Custom_Tree'
+[2015.06.10-00.33.08:234][ 33]LogLinker:Warning: Can't find file for asset '/Game/Custom_Tree' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:235][ 33]LogLinker:Warning: Can't find file '/Game/Rock1'
+[2015.06.10-00.33.08:235][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock1' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:238][ 33]LogLinker:Warning: Can't find file '/Game/Rock-Texture-Surface'
+[2015.06.10-00.33.08:238][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock-Texture-Surface' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap.
+[2015.06.10-00.33.08:297][ 33]LogLinker:Warning: Can't find file '/Game/bark_loo'
+[2015.06.10-00.33.08:329][ 33]LoadErrors: Info Failed to load /Game/bark_loo.bark_loo Referenced by MaterialExpressionTextureSample_2
+[2015.06.10-00.33.08:330][ 33]LogLinker:Warning: Can't find file for asset '/Game/bark_loo' while loading NULL.
+[2015.06.10-00.33.08:516][ 33]LogLinker:Warning: Can't find file '/Game/Rock-Texture-Surface'
+[2015.06.10-00.33.08:517][ 33]LoadErrors: Info Failed to load /Game/Rock-Texture-Surface.Rock-Texture-Surface Referenced by PersistentLevel
+[2015.06.10-00.33.08:518][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock-Texture-Surface' while loading NULL.
+[2015.06.10-00.33.08:628][ 33]LogLinker:Warning: Can't find file '/Game/Custom_Tree'
+[2015.06.10-00.33.08:628][ 33]LoadErrors: Info Failed to load /Game/Custom_Tree.Custom_Tree Referenced by Custom_Tree_10
+[2015.06.10-00.33.08:629][ 33]LogLinker:Warning: Can't find file for asset '/Game/Custom_Tree' while loading NULL.
+[2015.06.10-00.33.08:629][ 33]LogLinker:Warning: Can't find file '/Game/Rock1'
+[2015.06.10-00.33.08:629][ 33]LoadErrors: Info Failed to load /Game/Rock1.Rock1 Referenced by Rock2_7
+[2015.06.10-00.33.08:630][ 33]LogLinker:Warning: Can't find file for asset '/Game/Rock1' while loading NULL.
+[2015.06.10-00.33.11:394][ 33]LogMaterial: Missing cached shader map for material Bark, compiling. 
+[2015.06.10-00.33.11:648][ 33]LogMaterial:Warning: Failed to compile Material /Game/Bark.Bark for platform PCD3D_SM4, Default Material will be used in game.
+[2015.06.10-00.33.11:648][ 33]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.06.10-00.33.27:170][ 33]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.06.10-00.33.27:174][ 33]LightingResults: New page: Lighting Build
+[2015.06.10-00.33.27:253][ 33]LoadErrors: New page: Loading map: Scene1.umap
+[2015.06.10-00.33.27:342][ 33]MapCheck: New page: Map Check
+[2015.06.10-00.33.27:342][ 33]LightingResults: New page: Lighting Build
+[2015.06.10-00.33.27:443][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009DBD2A160
+[2015.06.10-00.33.33:265][ 33]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.10-00.33.33:472][ 33]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.33.33:620][ 33]Cmd: MAP CHECKDEP
+[2015.06.10-00.33.33:620][ 33]MapCheck: New page: Scene1 - Jun 9, 2015, 10:33:33 AM
+[2015.06.10-00.33.33:744][ 33]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.665ms to complete.
+[2015.06.10-00.33.33:746][ 33]LogFileHelpers: Loading map 'Scene1' took 6.635
+[2015.06.10-00.33.33:898][ 34]Cmd: UpdateLandscapeEditorData -warnings
+[2015.06.10-00.33.34:140][ 34]Cmd: UpdateLandscapeEditorData
+[2015.06.10-00.33.40:704][202]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.06.10-00.34.02:103][829]Cmd: TRANSACTION UNDO
+[2015.06.10-00.34.02:103][829]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.06.10-00.34.02:373][829]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.06.10-00.34.02:751][829]PIE:Warning: Warning AttachTo: '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2015.06.10-00.34.50:353][521]Cmd: DELETE
+[2015.06.10-00.34.50:353][521]Cmd: ACTOR DELETE
+[2015.06.10-00.34.50:416][521]LogEditorActor: Deleted Actor: PhysicsVolume
+[2015.06.10-00.34.50:630][521]LogEditorActor: Deleted 1 Actors (0.253 secs)
+[2015.06.10-00.37.16:499][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene1" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.06.10-00.37.17:351][187]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2015.06.10-00.37.18:123][187]LogSavePackage: Save=885.721069ms
+[2015.06.10-00.37.18:123][187]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Saved/Scene1C9A84BF945570B037404EBB12A8F66AE.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/SOMIntro/Content/Scene1.umap'
+[2015.06.10-00.38.02:609][842]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-00.38.02:627][842]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 10:38:02 AM)
+[2015.06.10-00.38.02:703][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075670s)
+[2015.06.10-00.38.02:704][842]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2015.06.10-00.38.02:711][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.082824s)
+[2015.06.10-00.38.03:067][842]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-00.38.03:453][842]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.38.03:499][842]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-17.38.03
+[2015.06.10-00.38.03:543][842]LogWorld: Bringing up level for play took: 0.088281
+[2015.06.10-00.38.03:796][842]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.759
+[2015.06.10-00.38.04:479][843]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057801 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_4'
+[2015.06.10-00.39.24:695][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009DB935760
+[2015.06.10-00.39.29:689][623]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-00.39.29:690][623]PIE: New page: PIE session: Scene1 (Jun 9, 2015, 10:39:29 AM)
+[2015.06.10-00.39.29:735][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044495s)
+[2015.06.10-00.39.29:736][623]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2015.06.10-00.39.29:737][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene1.Scene1 to /Game/UEDPIE_0_Scene1.Scene1 (0.046409s)
+[2015.06.10-00.39.29:784][623]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.06.10-00.39.29:787][623]LogAIModule: Creating AISystem for world Scene1
+[2015.06.10-00.39.29:823][623]LogWorld: Bringing World /Game/UEDPIE_0_Scene1.Scene1 up for play (max tick rate 60) at 2015.06.09-17.39.29
+[2015.06.10-00.39.29:824][623]LogWorld: Bringing up level for play took: 0.036494
+[2015.06.10-00.39.29:836][623]PIE: Info Play in editor start time for /Game/UEDPIE_0_Scene1 0.8
+[2015.06.10-00.39.33:296][763]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A1DF0C20
+[2015.06.10-00.40.51:778][403]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.06.10-00.41.03:605][747]LogTexture:Display: Building textures: T_Water_M (AutoDXT)
+[2015.06.10-00.41.07:188][747]LogMaterial: Missing cached shader map for material T_Water_M_Mat, compiling. 
+[2015.06.10-00.41.12:642][875]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.06.10-00.41.14:482][875]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2015.06.10-00.41.24:019][993]LogMaterial: Missing cached shader map for material T_Water_Mat, compiling. 
+[2015.06.10-00.41.27:281][ 79]Cmd: TRANSACTION UNDO
+[2015.06.10-00.41.27:281][ 79]LogEditorTransaction: Undo Create Actors
+[2015.06.10-00.41.27:283][ 79]PIE:Warning: Warning AttachTo: '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2015.06.10-00.41.27:767][ 87]Cmd: TRANSACTION UNDO
+[2015.06.10-00.41.27:767][ 87]LogEditorTransaction: Undo Create Actors
+[2015.06.10-00.41.27:769][ 87]PIE:Warning: Warning AttachTo: '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.GizmoRendererComponent0' is not static , cannot attach '/Game/Scene1.Scene1:PersistentLevel.LandscapeGizmoActiveActor_1.RootComponent0' which is static to it. Aborting.
+[2015.06.10-00.43.05:840][663]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.06.10-00.43.12:367][876]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.06.10-00.43.13:828][924]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles/Materials'
+[2015.06.10-00.43.14:652][951]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.06.10-00.43.15:288][970]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.06.10-00.43.15:801][987]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.06.10-00.43.16:073][994]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.06.10-00.43.20:888][ 18]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.06.10-00.43.21:388][ 18]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2015.06.10-00.43.21:969][ 18]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2015.06.10-00.43.27:001][ 18]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2015.06.10-00.43.48:626][ 18]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2015.06.10-00.43.50:215][ 18]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2015.06.10-00.44.13:033][ 18]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2015.06.10-00.44.13:329][ 18]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2015.06.10-00.44.19:335][ 18]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2015.06.10-00.44.21:142][ 18]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2015.06.10-00.44.21:715][ 18]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Birds01...
+[2015.06.10-00.44.23:770][ 18]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind06...
+[2015.06.10-00.44.24:742][ 18]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind05...
+[2015.06.10-00.44.25:584][ 18]LogStaticMesh: Building static mesh SM_Chair...
+[2015.06.10-00.44.25:719][ 18]LogStaticMesh: Built static mesh [225.028702ms] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2015.06.10-00.44.26:017][ 18]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2015.06.10-00.44.28:468][ 18]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2015.06.10-00.44.28:870][ 18]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2015.06.10-00.44.28:886][ 18]LogStaticMesh: Building static mesh SM_TableRound...
+[2015.06.10-00.44.29:015][ 18]LogStaticMesh: Built static mesh [130.034409ms] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2015.06.10-00.44.29:265][ 18]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.06.10-00.44.29:577][ 18]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2015.06.10-00.44.31:549][ 18]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2015.06.10-00.44.34:520][ 18]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2015.06.10-00.44.34:616][ 18]LogStaticMesh: Building static mesh SM_Statue...
+[2015.06.10-00.44.34:769][ 18]LogStaticMesh: Built static mesh [230.988388ms] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2015.06.10-00.44.35:094][ 18]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.06.10-00.44.35:514][ 18]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.06.10-00.44.35:534][ 18]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.06.10-00.44.35:969][ 18]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.06.10-00.44.35:988][ 18]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.06.10-00.44.36:216][ 18]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.06.10-00.44.36:228][ 18]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.06.10-00.44.36:242][ 18]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.06.10-00.44.36:247][ 18]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.06.10-00.44.36:261][ 18]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.06.10-00.44.48:080][ 18]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2015.06.10-00.45.04:162][ 18]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2015.06.10-00.45.06:192][ 18]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.06.10-00.45.06:235][ 18]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fire01...
+[2015.06.10-00.45.06:635][ 18]LogTextur
